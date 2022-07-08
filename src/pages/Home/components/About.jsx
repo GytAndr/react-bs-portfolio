@@ -1,14 +1,13 @@
 //React Bootstrap imports
-import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
-//image import
-import aboutImg from '../images/690x400.png';
+//Images import
+import aboutImg from 'C:/Users/andri/repos/bootstrap/react-bs-portfolio/src/images/690x400.png';
 
 export default function About() {
 	return (
-		<Container className="mt-4">
+		<>
 			<h2 className="display-4 mb-4">
 				Firstname Lastname
 				<small className="d-block text-muted">Job position</small>
@@ -33,6 +32,6 @@ export default function About() {
 					</p>
 				</Col>
 			</Row>
-		</Container>
+		</>
 	);
 }

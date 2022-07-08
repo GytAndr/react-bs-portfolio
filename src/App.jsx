@@ -1,12 +1,12 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navigation from './components/Navigation';
-import About from './components/About';
+import Home from './pages/Home/Home';
 
 function App() {
 	return (
 		<div className="App">
 			<Navigation />
-			<About />
+			<Home />
 		</div>
 	);
 }
