@@ -6,6 +6,7 @@ import Navigation from './components/Navigation';
 import Home from './pages/Home/Home';
 import Portfolio from './pages/Portfolio/Portfolio';
 import PortfolioItem from './pages/Portfolio-item/PortfolioItem';
+import Resume from './pages/Resume/Resume';
 
 function App() {
 	return (
@@ -14,6 +15,7 @@ function App() {
 			<BrowserRouter>
 				<Routes>
 					<Route path="/portfolio/home" element={<Home />} />
+					<Route path="/portfolio/resume" element={<Resume />} />
 					<Route path="/portfolio/portfolio-overview" element={<Portfolio />} />
 					<Route path="/portfolio/portfolio-item" element={<PortfolioItem />} />
 				</Routes>

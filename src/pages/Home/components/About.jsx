@@ -9,8 +9,8 @@ export default function About() {
 	return (
 		<>
 			<h2 className="display-4 mb-4">
-				Firstname Lastname
-				<small className="d-block text-muted">Job position</small>
+				Gytis Andriejūnas
+				<small className="d-block text-muted">Front-End Developer</small>
 			</h2>
 			<Row className="mb-4">
 				<Col lg={6} className="mb-4 mb-lg-0">

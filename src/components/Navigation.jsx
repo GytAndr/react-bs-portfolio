@@ -29,15 +29,12 @@ export default function Navigation() {
 							<Nav.Link href="/portfolio/home">Home</Nav.Link>
 						</Nav.Item>
 						<Nav.Item className="active">
-							<Nav.Link href="/portfolio/home">Resume</Nav.Link>
+							<Nav.Link href="/portfolio/resume">Resume</Nav.Link>
 						</Nav.Item>
 						<Nav.Item>
 							<Nav.Link href="/portfolio/portfolio-overview">
 								Portfolio
 							</Nav.Link>
-						</Nav.Item>
-						<Nav.Item className="active">
-							<Nav.Link href="/portfolio/home">Contact</Nav.Link>
 						</Nav.Item>
 					</Nav>
 				</Navbar.Collapse>
