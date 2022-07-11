@@ -3,8 +3,9 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Footerbar from './components/Footerbar';
 import Navigation from './components/Navigation';
-import Home from './pages/Home/Home'; //TO DO: Add router for home/portfolio switch
+import Home from './pages/Home/Home';
 import Portfolio from './pages/Portfolio/Portfolio';
+import PortfolioItem from './pages/Portfolio-item/PortfolioItem';
 
 function App() {
 	return (
@@ -14,6 +15,7 @@ function App() {
 				<Routes>
 					<Route path="/portfolio/home" element={<Home />} />
 					<Route path="/portfolio/portfolio-overview" element={<Portfolio />} />
+					<Route path="/portfolio/portfolio-item" element={<PortfolioItem />} />
 				</Routes>
 			</BrowserRouter>
 			<Footerbar />

@@ -29,7 +29,7 @@ export default function Portfolio() {
 								malesuada.
 							</Card.Text>
 							<Button
-								href="#portfolio-item"
+								href="/portfolio/portfolio-item"
 								variant="primary"
 								className="w-100 stretched-link"
 							>
@@ -57,7 +57,7 @@ export default function Portfolio() {
 								malesuada.
 							</Card.Text>
 							<Button
-								href="#portfolio-item"
+								href="/portfolio/portfolio-item"
 								variant="primary"
 								className="w-100 stretched-link"
 							>
@@ -85,7 +85,7 @@ export default function Portfolio() {
 								malesuada.
 							</Card.Text>
 							<Button
-								href="#portfolio-item"
+								href="/portfolio/portfolio-item"
 								variant="primary"
 								className="w-100 stretched-link"
 							>

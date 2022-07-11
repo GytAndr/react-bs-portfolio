@@ -43,8 +43,8 @@ export default function Footerbar() {
 						</ul>
 					</Col>
 				</Row>
-				<p className="text-center mb-0">
-					&copy; 2020 Firstname Lastname. All rights reserved.
+				<p className="text-center text-muted mb-0">
+					&copy; 2022 Gytis Andriejunas. All rights reserved.
 				</p>
 			</Container>
 		</footer>
