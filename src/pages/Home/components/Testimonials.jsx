@@ -10,7 +10,7 @@ export default function Testimonials() {
 			<Row className="mb-4">
 				<Col lg={4}>
 					<Figure>
-						<blockquote class="blockquote">
+						<blockquote className="blockquote">
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
 								pulvinar purus vitae nisl semper, a ornare purus euismod.
@@ -23,7 +23,7 @@ export default function Testimonials() {
 				</Col>
 				<Col lg={4}>
 					<Figure>
-						<blockquote class="blockquote">
+						<blockquote className="blockquote">
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
 								pulvinar purus vitae nisl semper, a ornare purus euismod.
@@ -36,7 +36,7 @@ export default function Testimonials() {
 				</Col>
 				<Col lg={4}>
 					<Figure>
-						<blockquote class="blockquote">
+						<blockquote className="blockquote">
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
 								pulvinar purus vitae nisl semper, a ornare purus euismod.
