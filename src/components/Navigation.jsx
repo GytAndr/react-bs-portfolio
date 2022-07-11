@@ -17,7 +17,7 @@ export default function Navigation() {
 						src={profilePic}
 						alt="Profile"
 					/>
-					Portfolio
+					Gytis Andriejunas
 				</Navbar.Brand>
 
 				<Navbar.Toggle>
@@ -28,10 +28,16 @@ export default function Navigation() {
 						<Nav.Item className="active">
 							<Nav.Link href="/portfolio/home">Home</Nav.Link>
 						</Nav.Item>
+						<Nav.Item className="active">
+							<Nav.Link href="/portfolio/home">Resume</Nav.Link>
+						</Nav.Item>
 						<Nav.Item>
 							<Nav.Link href="/portfolio/portfolio-overview">
 								Portfolio
 							</Nav.Link>
+						</Nav.Item>
+						<Nav.Item className="active">
+							<Nav.Link href="/portfolio/home">Contact</Nav.Link>
 						</Nav.Item>
 					</Nav>
 				</Navbar.Collapse>

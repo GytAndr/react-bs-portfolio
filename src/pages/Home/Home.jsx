@@ -2,7 +2,6 @@ import About from './components/About';
 import Container from 'react-bootstrap/Container';
 import FeaturedProjects from './components/FeaturedProjects';
 import Testimonials from './components/Testimonials';
-import Contact from './components/Contact';
 
 export default function Home() {
 	return (
@@ -10,7 +9,6 @@ export default function Home() {
 			<About />
 			<FeaturedProjects />
 			<Testimonials />
-			<Contact />
 		</Container>
 	);
 }
