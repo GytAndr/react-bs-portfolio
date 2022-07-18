@@ -9,24 +9,16 @@ export default function About() {
 
 			<Card.Body>
 				<Card.Text className="lead">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-					orci massa, maximus a velit sit amet, fringilla convallis tellus.
+					Hi! My name is Gytis Andriejunas. In the beginning of 2022, I decided
+					to end my career in AML compliance field and decided to become
+					self-thought Web developer.
 				</Card.Text>
 				<Card.Text>
-					Morbi auctor consectetur convallis. Suspendisse at lobortis libero.
-					Curabitur commodo dapibus rhoncus. Donec accumsan magna et magna
-					auctor pretium. Proin lectus augue, tincidunt eu quam in, finibus
-					imperdiet lectus. Donec commodo, est eu semper pellentesque, sapien
-					arcu tempor leo, quis commodo nisl arcu vitae ligula. Duis et elit ut
-					quam finibus accumsan vitae non leo.
-				</Card.Text>
-				<Card.Text>
-					Aenean sit amet feugiat nibh, at tempor quam. Phasellus pretium vitae
-					urna sit amet ultrices. Morbi malesuada nulla eu ipsum sagittis, nec
-					dignissim turpis iaculis. Nullam laoreet interdum lorem sit amet
-					egestas. Quisque ultricies porta dolor, eget dapibus dui. Praesent
-					porttitor quam a quam faucibus volutpat. Pellentesque aliquam
-					convallis faucibus. Pellentesque rhoncus euismod fermentum.
+					I am self-thought Front-End developer with endless desire to learn new
+					skills, persistence to deal with complex problems and leadership
+					experience to lead self and others into success. Skilled in HTML, CSS,
+					JavaScript and React. Seeking my first junior position in company that
+					would become my new family.
 				</Card.Text>
 			</Card.Body>
 		</Card>

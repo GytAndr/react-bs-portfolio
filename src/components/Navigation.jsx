@@ -5,7 +5,7 @@ import Image from 'react-bootstrap/Image';
 import Nav from 'react-bootstrap/Nav';
 
 //Images import
-import profilePic from '../images/50x50.png';
+import profilePic from '../images/Profile.jpg';
 export default function Navigation() {
 	return (
 		<Navbar bg="light" expand="lg" variant="light">
@@ -13,7 +13,7 @@ export default function Navigation() {
 				<Navbar.Brand href="/portfolio/home">
 					<Image
 						roundedCircle
-						className="align-middle me-2"
+						className="align-middle me-2 h-50"
 						src={profilePic}
 						alt="Profile"
 					/>
