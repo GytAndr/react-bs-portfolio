@@ -1,5 +1,4 @@
 import Card from 'react-bootstrap/esm/Card';
-import resumeImg from 'C:/Users/andri/repos/bootstrap/react-bs-portfolio/src/images/690x400.png';
 
 export default function About() {
 	return (
@@ -7,7 +6,7 @@ export default function About() {
 			<Card.Header as="h2" className="text-center">
 				Gytis Andriejūnas
 			</Card.Header>
-			<img src={resumeImg} alt="Resume portrait" className="w-100" />
+
 			<Card.Body>
 				<Card.Text className="lead">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
