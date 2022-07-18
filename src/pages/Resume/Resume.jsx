@@ -5,6 +5,7 @@ import About from './components/About';
 import WorkExp from './components/WorkExp';
 import Education from './components/Education';
 import Testimonials from './components/Testimonials';
+import Contacts from './components/Contacts';
 export default function Resume() {
 	return (
 		<Container as="main" className="mt-4">
@@ -14,6 +15,9 @@ export default function Resume() {
 					<WorkExp />
 					<Education />
 					<Testimonials />
+				</Col>
+				<Col lg="4" className="col-12">
+					<Contacts />
 				</Col>
 			</Row>
 		</Container>
