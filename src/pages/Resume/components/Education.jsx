@@ -10,7 +10,7 @@ export default function Education() {
 				<div className="d-flex align-items-start mb-2">
 					<i className="bi bi-book text-primary display-6 me-3"></i>
 					<div className="flex-grow-1">
-						<h4 className=" mb-1">Compliance Team Lead</h4>
+						<h4 className=" mb-1">Bachelor's degree, Physical Therapy</h4>
 						<div className="d-sm-flex justify-content-sm-between align-items-sm-baseline">
 							<h5 className="mb-0">
 								<a
@@ -18,24 +18,23 @@ export default function Education() {
 									target="_blank"
 									className="text-decoration-none"
 								>
-									Guidehouse
+									Vilnius University
 								</a>
 							</h5>
 							<small className="text-uppercase fw-bold text-muted">
-								<time>May 2021</time> &ndash; <time>January 2022</time>
+								<time>2013</time> &ndash; <time>2014</time>
 							</small>
 						</div>
 					</div>
 				</div>
-				<Card.Text>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-					eiusmod tempor incididunt ut labore et dolore magna aliqua.
-				</Card.Text>
+
 				<hr />
 				<div className="d-flex align-items-start mb-2">
 					<i className="bi bi-book text-primary display-6 me-3"></i>
 					<div className="flex-grow-1">
-						<h4 className=" mb-1">Compliance Team Lead</h4>
+						<h4 className=" mb-1">
+							Professional Bachelor's degree, Physical Therapy
+						</h4>
 						<div className="d-sm-flex justify-content-sm-between align-items-sm-baseline">
 							<h5 className="mb-0">
 								<a
@@ -43,19 +42,15 @@ export default function Education() {
 									target="_blank"
 									className="text-decoration-none"
 								>
-									Guidehouse
+									Panevezio Kolegija
 								</a>
 							</h5>
 							<small className="text-uppercase fw-bold text-muted">
-								<time>May 2021</time> &ndash; <time>January 2022</time>
+								<time>2010</time> &ndash; <time>2013</time>
 							</small>
 						</div>
 					</div>
 				</div>
-				<Card.Text>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-					eiusmod tempor incididunt ut labore et dolore magna aliqua.
-				</Card.Text>
 			</Card.Body>
 		</Card>
 	);
