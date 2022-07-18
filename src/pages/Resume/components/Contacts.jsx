@@ -9,26 +9,26 @@ export default function Contacts() {
 			<Card.Body>
 				<div className="d-flex align-items-start">
 					<i class="bi bi-person-circle text-primary fs-4 me-3"></i>
-					<div className="flex-grow-1 fs-5 ">
+					<div className="flex-grow-1 fs-5 text-muted">
 						Gytis Andriejūnas
 						<hr />
 					</div>
 				</div>
 				<div className="d-flex align-items-start">
 					<i class="bi bi-calendar-event text-primary fs-4 me-3"></i>
-					<div className="flex-grow-1 fs-5 ">
+					<div className="flex-grow-1 fs-5 text-muted">
 						1991-05-25 <hr />
 					</div>
 				</div>
 				<div className="d-flex align-items-start">
 					<i class="bi bi-telephone text-primary fs-4 me-3"></i>
-					<div className="flex-grow-1 fs-5 ">
+					<div className="flex-grow-1 fs-5 text-muted">
 						+370 63516745 <hr />
 					</div>
 				</div>
 				<div className="d-flex align-items-start">
 					<i class="bi bi-envelope text-primary fs-4 me-3"></i>
-					<div className="flex-grow-1 fs-5 ">
+					<div className="flex-grow-1 fs-5 text-muted">
 						<a
 							href="mailto:andriejunas@gmail.com"
 							className="text-decoration-none"
@@ -40,13 +40,13 @@ export default function Contacts() {
 				</div>
 				<div className="d-flex align-items-start">
 					<i class="bi bi-house-door text-primary fs-4 me-3"></i>
-					<div className="flex-grow-1 fs-5 ">
+					<div className="flex-grow-1 fs-5 text-muted">
 						Panevėžys, Lithuania <hr />
 					</div>
 				</div>
 				<div className="d-flex align-items-start">
 					<i class="bi bi-github text-primary fs-4 me-3"></i>
-					<div className="flex-grow-1 fs-5 ">
+					<div className="flex-grow-1 fs-5 text-muted">
 						<a
 							href="https://github.com/GytAndr"
 							className="text-decoration-none"
