@@ -4,6 +4,7 @@ import Col from 'react-bootstrap/esm/Col';
 import About from './components/About';
 import WorkExp from './components/WorkExp';
 import Education from './components/Education';
+import Testimonials from './components/Testimonials';
 export default function Resume() {
 	return (
 		<Container as="main" className="mt-4">
@@ -12,6 +13,7 @@ export default function Resume() {
 					<About />
 					<WorkExp />
 					<Education />
+					<Testimonials />
 				</Col>
 			</Row>
 		</Container>
